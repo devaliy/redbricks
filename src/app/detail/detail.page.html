@@ -5,34 +5,37 @@
     <div class="header">
       <swiper-container
       #swiper
-      [slidesPerView]="1"
+      [slidesPerView]="1.5"
       [loop]="true"
       effect="flip"
        [pagination]="true"
        [zoom]="true"
+       [allowSlideNext]="true"
+       [allowSlidePrev]="true"
+       color="primary"
        >
        <swiper-slide>
          <div class="swiper-zoom-container">
-           <img src="../../assets/apart/h1.jpeg">
+           <img src="../../assets/h2.png">
          </div>
-       
-   
+
+
        </swiper-slide>
        <swiper-slide>
          <div class="swiper-zoom-container">
            <img src="../../assets/apart/h1.jpeg">
          </div>
-       
-   
+
+
        </swiper-slide>
        <swiper-slide>
          <div class="swiper-zoom-container">
            <img src="../../assets/apart/h1.jpeg">
          </div>
-       
-   
+
+
        </swiper-slide>
-      
+
       </swiper-container>
 
       <!-- <ion-button slot="start">
@@ -44,10 +47,44 @@
     </div>
   </ion-header>
 
-
+<ion-grid>
+  <ion-row>
 
   <div class="details">
-    
+    <h2>Two Bedroom Flat</h2>
+    <div class="left">
+
+      <p>
+        <ion-icon name="location" style="color: goldenrod;"></ion-icon>
+        Agidingbi, Ikeja
+      </p>
+      <p>
+        <ion-icon name="call-sharp"  style="color: goldenrod;"></ion-icon>
+       +2348167381819
+      </p>
+    </div>
+
+
+    <div class="right">
+      &nbsp;
+    </div>
+
 
   </div>
+  </ion-row>
+
+  <ion-row>
+
+  <div class="details">
+    <h3>Details</h3>
+    <p>This house has a luxurious sitting room and a big kitchen There are two toilets and bathroom and the master bedroom contains all ready-made furniture made by the best maker in the country.</p>
+
+      <ion-button>PAY NOW   &#8358; 120,000</ion-button>
+  </div>
+  </ion-row>
+
+</ion-grid>
+
+
+
 </ion-content>

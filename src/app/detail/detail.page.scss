@@ -5,4 +5,26 @@ ion-content {
     text-align: center;
 
   }
+
+  .details {
+    margin: 1rem;
+    display: block;
+
+
+  .left {
+    float: left;
+    margin: 1rem;
+
+  }
+
+  .right{
+    background: url('../../assets/map.png');
+    background-size: contain;
+    float: right;
+    width: 9rem;
+    height: 9rem;
+    border: 1px solid grey;
+    border-radius: 50%;
+  }
+  }
 }
