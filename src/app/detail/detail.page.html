@@ -1,0 +1,31 @@
+
+
+<ion-content [fullscreen]="true">
+  <ion-header >
+    <div class="header">
+      <swiper-container
+      #swiper
+      [slidesPerView]="1"
+      [loop]="true"
+      effect="flip"
+       [pagination]="true"
+       [zoom]="true"
+       >
+        <swiper-slide>
+          <div class="swiper-zoom-container">
+            <img src="../../assets/apart/h1.jpeg">
+          </div>
+    
+        </swiper-slide>
+      
+      </swiper-container>
+
+      <ion-button slot="start">
+        <ion-icon name="chevron-back-outline"  slot="icon-only"  (click)="goPrevious()"></ion-icon>
+      </ion-button>
+      <ion-button slot="end">
+        <ion-icon name="chevron-forward-outline" slot="icon-only"  (click)="goNext()"></ion-icon>
+      </ion-button>
+    </div>
+  </ion-header>
+</ion-content>

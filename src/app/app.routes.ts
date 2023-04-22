@@ -26,4 +26,12 @@ export const routes: Routes = [
     path: 'splash',
     loadComponent: () => import('./splash/splash.page').then( m => m.SplashPage)
   },
+  {
+    path: 'search',
+    loadComponent: () => import('./search/search.page').then( m => m.SearchPage)
+  },
+  {
+    path: 'detail',
+    loadComponent: () => import('./detail/detail.page').then( m => m.DetailPage)
+  },
 ];
